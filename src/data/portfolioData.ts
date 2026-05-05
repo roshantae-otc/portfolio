@@ -33,7 +33,8 @@ export const projects: Project[] = [
     description: 'An interactive web-based rhythm and jumping game.',
     analysis: 'Deep dive into DOM manipulation and browser-based game physics. Optimized for smooth performance and responsive input handling across devices.',
     tech: ['JavaScript', 'HTML5 Canvas', 'Game Physics', 'Web Audio API'],
-    github: 'https://github.com/roshantae-otc',
+    link: 'https://lyric-jumper.vercel.app/',
+    github: 'https://github.com/roshantae-otc/LyricJumper',
     category: 'Game'
   },
   {
@@ -42,6 +43,7 @@ export const projects: Project[] = [
     description: 'A premium e-commerce platform for high-end fragrances.',
     analysis: 'Built using a hybrid architecture for maximum performance. Integrated complex state management for a seamless shopping experience and custom product filtering.',
     tech: ['React', 'PHP/Backend', 'Hybrid Build', 'E-commerce'],
+    link: 'https://luxury-fragrance-site.vercel.app/',
     category: 'Full-Stack'
   },
   {

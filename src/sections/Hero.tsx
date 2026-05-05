@@ -40,12 +40,10 @@ const Hero: React.FC = () => {
           className="hero-ctas"
         >
           <a 
-            href="https://www.freelancer.com" 
+            href="mailto:roshantaerodway22@gmail.com" 
             className="cta-main glow-border-pink"
-            target="_blank" 
-            rel="noopener noreferrer"
           >
-            Hire on Freelancer
+            Hire Me Direct
           </a>
           <a href="#projects" className="cta-secondary">
             View My Work

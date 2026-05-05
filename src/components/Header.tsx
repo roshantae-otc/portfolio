@@ -27,10 +27,8 @@ const Header: React.FC = () => {
           <a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a>
           <a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a>
           <a 
-            href="https://www.freelancer.com" 
+            href="mailto:roshantaerodway22@gmail.com" 
             className="cta-button-small glow-border-pink"
-            target="_blank" 
-            rel="noopener noreferrer"
           >
             Hire Me
           </a>
