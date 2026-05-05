@@ -1,0 +1,85 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 900px;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 5px;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 8vw, 5rem);
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cta-main {
+  padding: 1.2rem 2.5rem;
+  border-radius: 4px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+}
+
+.cta-main:hover {
+  background: var(--accent-pink);
+  color: white;
+  box-shadow: 0 0 30px var(--accent-pink-glow);
+  transform: translateY(-3px);
+}
+
+.cta-secondary {
+  padding: 1.2rem 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  border-bottom: 2px solid transparent;
+}
+
+.cta-secondary:hover {
+  color: var(--accent-red);
+  border-bottom: 2px solid var(--accent-red);
+  text-shadow: 0 0 10px var(--accent-red-glow);
+}
+
+.hero-grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(circle at center, black 0%, transparent 80%);
+  pointer-events: none;
+}

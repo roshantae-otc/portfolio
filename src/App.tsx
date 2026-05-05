@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import Hero from './sections/Hero';
+import Projects from './sections/Projects';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main>
+        <Hero />
+        <Projects />
+        {/* Other sections like Skills and Experience can be added here */}
+      </main>
+      <footer className="footer">
+        <div className="container">
+          <p>© {new Date().getFullYear()} Roshantae Rodway. Built with React & ❤️</p>
+        </div>
+      </footer>
     </div>
   );
 }
